@@ -1,3 +1,5 @@
-function savedLead (){
-    console.log("Button cliked!")
-}
+let inputBtn = document.getElementById("input-btn")
+
+inputBtn.addEventListener("click", function(){
+    console.log("Button cliked from addEventListener")
+})
