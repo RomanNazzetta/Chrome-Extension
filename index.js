@@ -1,4 +1,13 @@
-let myLeads = []
+let myLeads = `["www.lalora.com"]`
+
+myLeads = JSON.parse(myLeads)
+
+myLeads.push("www.fiaca.com")
+
+console.log(myLeads)
+
+
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
